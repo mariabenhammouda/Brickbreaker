@@ -6,7 +6,7 @@ const cors = require('cors');
 
 // Database connection configuration
 const dbConfig = {
-    host: 'brick breaker',
+    host: 'tcp:brickbreaker.database.windows.net,1433',
     port: 3306,
     database: 'mygame_db',
     user: 'maria',
