@@ -6,11 +6,11 @@ const cors = require('cors');
 
 // Database connection configuration
 const dbConfig = {
-    host: 'localhost',
+    host: 'brick breaker',
     port: 3306,
     database: 'mygame_db',
-    user: 'root',
-    password: 'root',
+    user: 'maria',
+    password: 'Bespinglobal!',
 };
 
 const db = mysql.createPool(dbConfig);
